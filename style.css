@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+}
+
+header h1, a{
+    padding: 8px;
+    color: white;
+}
+
+#about img{
+    width: 220px;
+    border: none;
+    
+}
+
+#about {
+    display: flex;
+}
+
+.container{
+    padding: 8px;
+    margin-left: 8px;
+    flex-wrap: wrap;
+}
+
+section h2{
+    padding: 8px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+section p{
+    padding: 8px;
+}
+
+
+#Contact img{
+    width:50px ;
+}
+
