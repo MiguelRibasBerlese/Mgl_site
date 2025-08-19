@@ -1,108 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-
-    <title>Miguel Ribas Berlese</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Site com Fundo e Blur</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Miguel Ribas Berlese</h1>
-        <nav>
-            <a href="#">Sobre</a>
-            <a href="#">Formações</a>
-            <a href="#">Trabalho em Equipe</a>
-            <a href="#">Contato</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <img src="pfp pro.jpeg" alt="Foto de Perfil">
-            <div class="container">
-                <h2>Sobre Mim</h2>
-                <article>
-                    <p>
-                        Sou Miguel Ribas Berlese, estudante de Engenharia de Software na UNAERP, com foco em desenvolvimento front-end e design de interfaces digitais. Tenho experiência prática com HTML, CSS, JavaScript, React.js e TypeScript atuando na criação de interfaces responsivas, funcionais e com apelo visual limpo, sempre com atenção à experiência do usuário.
-                    </p>
-                    <p>
-                        Já participei de projetos que envolveram desde a prototipação até a entrega final de telas, utilizando boas práticas de usabilidade, responsividade, design system e organização de código. Tenho familiaridade com ferramentas como Git/GitHub e com a documentação técnica voltada ao desenvolvimento visual.
-                    </p>
-                    <p>
-                       Também já tive contato com conceitos de back-end, banco de dados relacionais (como SQLite) e programação orientada a objetos, aplicando esses conhecimentos pontualmente em projetos acadêmicos. Tenho noção sobre metodologias ágeis (como Scrum) e modelos de desenvolvimento de software, o que me permite entender bem o fluxo de trabalho em equipe dentro de um projeto.
-                    </p>
-                    <p>
-                        Sou detalhista, curioso e gosto de transformar ideias em soluções diretas e bem executadas. Busco sempre evoluir na prática, com atenção ao que realmente agrega valor para quem utiliza o produto final.
-                    </p>
-                </article>
-            </div>
-        </section>
-        <section  id="graduations">
-            <div class="container">
-                <h2>Minhas Formações</h2>
-                <article>
-                    <p>
-                        <h3>Bacharelado</h3>
-                        Engenharia de Software – Universidade de Ribeirão Preto (UNAERP)
-                        6º período — Em andamento
-                        Foco em desenvolvimento de interfaces, fundamentos de engenharia de software, lógica de programação e participação em projetos acadêmicos multidisciplinares.
-                    </p>
-                    <p>
-                        <h3>Formação Full Stack com Python – EBAC (EAD)</h3>
-                        Curso em andamento. Abordagem prática em desenvolvimento front-end e back-end utilizando Python, JavaScript, TypeScript, React.js, HTML e CSS.
-                    </p>
-                    <p>
-                        <h3>Lógica de Programação – EBAC (EAD)</h3>
-                        Curso concluído. Estudo dos fundamentos de algoritmos, estruturas de decisão, laços de repetição e raciocínio computacional.
-                    </p>
-                    <p>
-                        <h3>Metodologias Ágeis e Modelos de Desenvolvimento de Software</h3>
-                        Conhecimentos introdutórios em metodologias ágeis como Scrum e Kanban, além de modelos clássicos como Cascata, Incremental e Iterativo.
-                    </p>
-                    <p>
-                        <h3>Inglês (Básico/Intermediário)</h3>
-                        Em busca de formação estruturada. Imersão contínua em ambientes com contato em língua inglesa, visando consolidar e expandir o vocabulário técnico e conversacional por meio de um curso qualificado.
-                    </p>
-                </article>
-            </div>
-        </section>
-        <section id="team">
-            <div class="container">
-                    <h2>
-                        Competências Comportamentais
-                    </h2>
-                <article>
-                    <p>
-                        Colaboração ativa – Promovo integração entre perfis diversos com foco em resultados coletivos.
 
-                        Boa comunicação – Facilito a troca entre áreas técnicas e não técnicas.
+  <!-- Fundo fixo -->
+  <div id="bg" aria-hidden="true"></div>
 
-                        Cocriação – Incentivo ideias em grupo e valorizo sugestões.
+  <header class="topbar">
+    <nav class="nav">
+      <a href="#home" class="logo">MeuPortfólio</a>
+      <div class="links">
+        <a href="#sobre" data-scroll>Sobre</a>
+        <a href="#projetos" data-scroll>Projetos</a>
+        <a href="#contato" data-scroll>Contato</a>
+      </div>
+    </nav>
+  </header>
 
-                        Adaptabilidade – Ajusto minha atuação conforme o ritmo da equipe.
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero reveal" data-anim="up">
+      <div class="wrap">
+        <h1>Bem-vindo!</h1>
+        <p>Role a página ou use o menu para ver o efeito de embassamento no fundo.</p>
+        <a href="#sobre" class="btn" data-scroll>Ver Sobre</a>
+      </div>
+    </section>
 
-                        Resolução de conflitos – Atuo com equilíbrio para manter a harmonia e o foco no objetivo.
-                    </p>
-                </article>
-            </div>
-        </section>
-        <section id="Contact">
-            <div class="container">
-                <h2>Entre em Contato</h2>
-                <article>
-                    <h3>Entre em Contato Comigo e Veja Alguns de meus Projetos</h3>
-                    <img src="wpp_logo.jpg" alt="whatsapp logo">
-                    <p>Entre em Conntato Diretamente</p>
-                    <p>(16)99402-6174</p>
-                    <img src="instagram.png" alt="instagram_logo"><p>Me Sigua Nas Redes Sociaois</p>
-                    <img src="Linkedin_Logo.png" alt="linkedin_logo">
-                    <img src="github_logo.png" alt="github_logo"><p>De uma Olhada nos meus Projetos</p>
-                    <address>Ribeirão Preto/SP</address>
-                </article>
-            </div>
-        </section>
-    </main>
-    
+    <!-- SOBRE -->
+    <section id="sobre" class="content reveal" data-anim="up">
+      <div class="sobre-container">
+        <div class="sobre-foto">
+          <img src="pfp pro.jpeg" alt="Foto de perfil" loading="lazy" width="220" height="220">
+        </div>
+        <div class="sobre-texto">
+          <h2>Sobre</h2>
+          <p>
+            Sou [seu nome], apaixonado por tecnologia e desenvolvimento. Tenho experiência
+            em [áreas de atuação] e estou sempre em busca de novos desafios para evoluir minhas habilidades.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="content reveal" data-anim="left">
+      <h2>Projetos</h2>
+      <p>Liste seus projetos com links, imagens e descrições.</p>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="content contact reveal" data-anim="right">
+      <h2>Contato</h2>
+      <p>Fale comigo pelas redes:</p>
+      <div class="social-grid">
+        <a class="social-link" href="https://wa.me/SEU_NUMERO" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <img src="wpp_logo.jpg" alt="WhatsApp">
+          <span>WhatsApp</span>
+        </a>
+        <a class="social-link" href="https://github.com/SEU_USUARIO" target="_blank" rel="noopener" aria-label="GitHub">
+          <img src="github_logo.png" alt="GitHub">
+          <span>GitHub</span>
+        </a>
+        <a class="social-link" href="https://instagram.com/SEU_USUARIO" target="_blank" rel="noopener" aria-label="Instagram">
+          <img src="instagram.png" alt="Instagram">
+          <span>Instagram</span>
+        </a>
+        <a class="social-link" href="https://www.linkedin.com/in/SEU_USUARIO" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <img src="Linkedin_Logo.png" alt="LinkedIn">
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
 </body>
 </html>

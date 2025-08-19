@@ -1,0 +1,85 @@
+<section id="about">
+            <img src="pfp pro.jpeg" alt="Foto de Perfil">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <article>
+                    <p>
+                        Sou Miguel Ribas Berlese, estudante de Engenharia de Software na UNAERP, com foco em desenvolvimento front-end e design de interfaces digitais. Tenho experiência prática com HTML, CSS, JavaScript, React.js e TypeScript atuando na criação de interfaces responsivas, funcionais e com apelo visual limpo, sempre com atenção à experiência do usuário.
+                    </p>
+                    <p>
+                        Já participei de projetos que envolveram desde a prototipação até a entrega final de telas, utilizando boas práticas de usabilidade, responsividade, design system e organização de código. Tenho familiaridade com ferramentas como Git/GitHub e com a documentação técnica voltada ao desenvolvimento visual.
+                    </p>
+                    <p>
+                       Também já tive contato com conceitos de back-end, banco de dados relacionais (como SQLite) e programação orientada a objetos, aplicando esses conhecimentos pontualmente em projetos acadêmicos. Tenho noção sobre metodologias ágeis (como Scrum) e modelos de desenvolvimento de software, o que me permite entender bem o fluxo de trabalho em equipe dentro de um projeto.
+                    </p>
+                    <p>
+                        Sou detalhista, curioso e gosto de transformar ideias em soluções diretas e bem executadas. Busco sempre evoluir na prática, com atenção ao que realmente agrega valor para quem utiliza o produto final.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section  id="graduations">
+            <div class="container">
+                <h2>Minhas Formações</h2>
+                <article>
+                    <p>
+                        <h3>Bacharelado</h3>
+                        Engenharia de Software – Universidade de Ribeirão Preto (UNAERP)
+                        6º período — Em andamento
+                        Foco em desenvolvimento de interfaces, fundamentos de engenharia de software, lógica de programação e participação em projetos acadêmicos multidisciplinares.
+                    </p>
+                    <p>
+                        <h3>Formação Full Stack com Python – EBAC (EAD)</h3>
+                        Curso em andamento. Abordagem prática em desenvolvimento front-end e back-end utilizando Python, JavaScript, TypeScript, React.js, HTML e CSS.
+                    </p>
+                    <p>
+                        <h3>Lógica de Programação – EBAC (EAD)</h3>
+                        Curso concluído. Estudo dos fundamentos de algoritmos, estruturas de decisão, laços de repetição e raciocínio computacional.
+                    </p>
+                    <p>
+                        <h3>Metodologias Ágeis e Modelos de Desenvolvimento de Software</h3>
+                        Conhecimentos introdutórios em metodologias ágeis como Scrum e Kanban, além de modelos clássicos como Cascata, Incremental e Iterativo.
+                    </p>
+                    <p>
+                        <h3>Inglês (Básico/Intermediário)</h3>
+                        Em busca de formação estruturada. Imersão contínua em ambientes com contato em língua inglesa, visando consolidar e expandir o vocabulário técnico e conversacional por meio de um curso qualificado.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="team">
+            <div class="container">
+                    <h2>
+                        Competências Comportamentais
+                    </h2>
+                <article>
+                    <p>
+                        Colaboração ativa – Promovo integração entre perfis diversos com foco em resultados coletivos.
+
+                        Boa comunicação – Facilito a troca entre áreas técnicas e não técnicas.
+
+                        Cocriação – Incentivo ideias em grupo e valorizo sugestões.
+
+                        Adaptabilidade – Ajusto minha atuação conforme o ritmo da equipe.
+
+                        Resolução de conflitos – Atuo com equilíbrio para manter a harmonia e o foco no objetivo.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section id="Contact">
+            <div class="container">
+                <h2>Entre em Contato</h2>
+                <article>
+                    <img src="wpp_logo.jpg" alt="whatsapp logo" >
+                    <img src="instagram.png" alt="instagram_logo">
+                    <img src="Linkedin_Logo.png" alt="linkedin_logo">
+                    <img src="github_logo.png" alt="github_logo">
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        &copy Todos os Direitos Reservados
+        <address>Ribeirão Preto/SP</address>
+    </footer>
